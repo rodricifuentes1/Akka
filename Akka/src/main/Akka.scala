@@ -6,7 +6,7 @@ import actores.Asesor
 import actores.Consultor
 
 class MainActor extends Actor {
-
+//Aqui Realizando una prueba del Github !!!!!!!!!!!!!!!!!
 	override def preStart():Unit={
 
 			val gerente = context.actorOf(Props(new Gerente("Rodrigo",1000000)))
